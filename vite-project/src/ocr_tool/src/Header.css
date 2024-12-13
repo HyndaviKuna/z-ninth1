@@ -1,0 +1,55 @@
+/* Header Container */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  /* Step Navigation */
+  .steps {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .steps span {
+    cursor: pointer;
+    color: #000;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .steps .active-step {
+    color: #3b82f6; /* Blue color for active step */
+    border-bottom-color: #3b82f6;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Processed Documents Counter */
+  .total-docs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .total{
+    display:flex;
+    flex:wrap;
+  }
+  .doc-count {
+    background-color: #3b82f6; /* Blue background for the counter */
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    min-width: 40px;
+    text-align: center;
+  }
+  

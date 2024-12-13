@@ -1,0 +1,38 @@
+.menu-bar {
+    background-color: white;
+    overflow: hidden; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .Li1{
+    background-color:navy;
+   
+    border-radius: 5px;
+   align-items:right;
+    width: 70px;
+    height: 30px;
+    
+  }
+  .menu-bar li {
+    float: left;
+  }
+  
+  .menu-bar li a {
+    display:inline;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer; 
+  }
+  
+  /* .menu-bar li a:hover {
+    cursor: pointer; 
+  } */
+  

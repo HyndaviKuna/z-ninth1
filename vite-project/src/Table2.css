@@ -1,0 +1,135 @@
+.table-container {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+.app-container {
+  font-family: Arial, sans-serif;
+  border: 0px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: -10px;
+}
+.total-docs {
+  display: flex;
+  margin-top: -20px;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #333;
+  border-radius: 10px;
+}
+.tab1{
+  gap:10px;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: -40px;
+  font-size: 18px;
+  max-height: 1000vh;
+}
+/* .tab {
+  font-size: 18px;
+} */
+h2{
+  margin-bottom: 50px;
+  text-align:left;
+}
+.step {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: normal; 
+  gap:2px;
+  cursor: pointer;
+}
+.active-step {
+  color: #4a3aff;
+  text-decoration: underline;
+}
+.ocr-tool-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+ .span{
+  font-size: 50px;
+ }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
+  /* border-bottom: 1px solid #ddd; */
+  background-color: #fff;
+}
+.processed-doc {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.processed-doc-btn {
+  background-color: #4a3aff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.probability.high {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.probability.medium {
+  background-color: #ff9800;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.probability.low {
+  background-color: #f44336;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  margin-top: -5px;
+  margin-bottom: 20px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  left: 50%;
+  transform: translate(530%, -50%); /* Center the button */
+}

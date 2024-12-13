@@ -1,0 +1,131 @@
+.table-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .processed-doc {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .processed-doc-btn {
+    background-color: #4a3aff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .probability.high {
+    background-color: #4caf50;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  
+  .probability.medium {
+    background-color: #ff9800;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  
+  .probability.low {
+    background-color: #f44336;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+
+/* .Table {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Table1{
+    border: 3px solid gray;
+    width: 800px;
+    height: 200px;
+    padding: 2%;
+    border-radius: 15px;
+}
+.Table2{
+    border: 3px solid gray;
+    width: 1000px;
+    height: 20px;
+    padding: 2%;
+    border-radius: 15px;
+}
+.Table3{
+    border: 3px solid gray;
+    width: 950px;
+    height: 250px;
+    border-radius: 20px; 
+}
+/* table {
+    border: 3px solid gray;
+    width: 800px;
+    height: 200px;
+    padding: 2%;
+    border-radius: 15px;
+} */
+
+/* .th1{
+    border-bottom: 1px solid black;
+border-right: 1px solid black;
+}
+.th2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;;
+    } */
+
+/* td {
+    text-align:center;
+}
+.Button1{
+   
+    color: white;
+    background: #5083F0;
+    border-radius: 5px;
+    width: 85px;
+    height: 37px;
+}  */
